@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../styles/ventana2.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.Ventana2Controller">
+<VBox prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../styles/ventanas2.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.Ventana2Controller">
 
     <children>
         <Label text="Menu" textAlignment="CENTER">
@@ -15,7 +15,7 @@
 
         <Button fx:id="btnConsultar" mnemonicParsing="false" onAction="#Consulta" text="Consultar" />
         <Button fx:id="btnDepositar" mnemonicParsing="false" text="Depositar" />
-        <Button fx:id="btnRetirar" mnemonicParsing="false" onAction="#Retirar" text="Retirar" />
+        <Button fx:id="btnRetirar" mnemonicParsing="false" text="Retirar" />
         <Button fx:id="btnSalir" mnemonicParsing="false" text="Salir" />
     </children>
 </VBox>

@@ -3,7 +3,7 @@ package com.example.login;
 public class usuario {
     private String Correo;
     private String Password;
-    private String saldo;
+    private int saldo=5000;
 
 
     public String getCorreo() {
@@ -22,11 +22,11 @@ public class usuario {
         Password = password;
     }
 
-    public String getSaldo() {
+    public int getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(String saldo) {
+    public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
 }
