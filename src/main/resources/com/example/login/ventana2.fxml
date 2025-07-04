@@ -4,13 +4,22 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
+<VBox xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.login.Ventana2Controller"
+      stylesheets="@../../../styles/ventana2.css"
+      prefHeight="400.0" prefWidth="600.0">
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <Label text="ventana2" textAlignment="CENTER">
+        <Label text="Menu" textAlignment="CENTER">
             <font>
                 <Font size="39.0" />
             </font>
         </Label>
+
+        <Button mnemonicParsing="false" text="Consultar" />
+        <Button mnemonicParsing="false" text="Depositar" />
+        <Button mnemonicParsing="false" text="Retirar" />
+        <Button mnemonicParsing="false" text="Salir" />
     </children>
 </VBox>
